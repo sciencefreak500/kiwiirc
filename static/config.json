@@ -1,9 +1,9 @@
 {
     "windowTitle": "Kiwi IRC - The web IRC client",
     "startupScreen": "welcome",
-    "kiwiServer": "https://localdev.clients.kiwiirc.com/webirc/kiwiirc/",
+    "kiwiServer": "http://localdev.clients.kiwiirc.com/webirc/kiwiirc/",
     "restricted": false,
-    "theme": "Default",
+    "theme": "Dark",
     "themes": [
         { "name": "Default", "url": "static/themes/default" },
         { "name": "Dark", "url": "static/themes/dark" },
@@ -16,8 +16,12 @@
         { "name": "Elite", "url": "static/themes/elite" }
     ],
     "startupOptions" : {
-        "channel": "#kiwiirc-default",
-        "nick": "kiwi-n?"
+        "server": "irc.relentlessinnovation.org",
+        "port": 6667,
+        "tls": false,
+        "direct": false,
+        "channel": "#default",
+        "nick": "guest?"
     },
     "embedly": {
         "key": ""
